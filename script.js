@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const videoContainer = document.getElementById("video-container");
 
     const reelFiles = [
-        "reel2.mp4", "reel3.mp4", "reel4.mp4", "reel25.mp4",
+        "./reels/reel2.mp4", "reel3.mp4", "reel4.mp4", "reel25.mp4",
         "reel5.mp4", "reel6.mp4", "reel7.mp4", "reel8.mp4",
         "reel9.mp4", "reel10.mp4", "reel11.mp4", "reel12.mp4",
         "reel13.mp4", "reel14.mp4", "reel15.mp4", "reel6.mp4",
@@ -249,4 +249,5 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         t();
     }
+
 });
