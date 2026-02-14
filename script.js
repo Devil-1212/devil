@@ -37,12 +37,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const videoContainer = document.getElementById("video-container");
 
     const reelFiles = [
-        "./reels/reel2.mp4", "reel3.mp4", "reel4.mp4", "reel25.mp4",
-        "reel5.mp4", "reel6.mp4", "reel7.mp4", "reel8.mp4",
-        "reel9.mp4", "reel10.mp4", "reel11.mp4", "reel12.mp4",
-        "reel13.mp4", "reel14.mp4", "reel15.mp4", "reel6.mp4",
-        "reel7.mp4", "reel8.mp4", "reel9.mp4", "reel20.mp4",
-        "reel21.mp4", "reel22.mp4", "reel23.mp4", "reel24.mp4"
+        "./reels/reel2.mp4", "./reels/reel3.mp4", "./reels/reel4.mp4", "./reels/reel25.mp4",
+        "./reels/reel5.mp4", "./reels/reel6.mp4", "./reels/reel7.mp4", "./reels/reel8.mp4",
+        "./reels/reel9.mp4", "./reels/reel10.mp4", "./reels/reel11.mp4", "./reels/reel12.mp4",
+        "./reels/reel13.mp4", "./reels/reel14.mp4", "./reels/reel15.mp4", "./reels/reel6.mp4",
+        "./reels/reel7.mp4", "./reels/reel8.mp4", "./reels/reel9.mp4", "./reels/reel20.mp4",
+        "./reels/reel21.mp4", "./reels/reel22.mp4", "./reels/reel23.mp4", "./reels/reel24.mp4"
     ];
 
     function shuffle(array) {
@@ -251,3 +251,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 });
+
