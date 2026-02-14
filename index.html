@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>My Universe | Forever</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@200;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onclick="unlockAudio()">
+
+    <div id="magic-wand">
+        <div class="wand-staff"></div>
+        <div class="wand-star">★</div>
+    </div>
+
+    <div id="audio-ui" class="audio-panel" onclick="togglePlay(event)">
+        <div class="visualizer"><span></span><span></span><span></span><span></span></div>
+        <div class="track-meta">
+            <p id="song-name">Tere Liye</p>
+            <small id="audio-status">Premium Audio</small>
+        </div>
+    </div>
+
+    <div class="aurora-sky"></div>
+    <div id="ambient-container"></div> 
+    <canvas id="petal-canvas"></canvas>
+    <div id="transition-overlay"></div>
+
+    <audio id="song1" src="../TereLiye mandir mein java.m4a" loop></audio>
+    <audio id="song2" src="../dorodor.mp3" loop></audio>
+
+    <div id="gatekeeper">
+        <div class="seal-heart">❤️</div>
+        <p>ENTERING HER UNIVERSE</p>
+    </div>
+
+    <main id="scene-manager">
+        <section id="page-ask" class="scene active">
+            <div class="glass-card">
+                <h1 class="glow-title">Will you be my Valentine?</h1>
+                <p class="subtitle">A journey of a thousand miles begins with us.</p>
+                <div class="button-box">
+                    <button id="btn-yes" class="control-btn yes">✨ YES 🌸</button>
+                    <button id="btn-no" class="control-btn no">🍡 NO 💢</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="page-journal" class="scene">
+            <div class="cinematic-container">
+                <div class="video-film-strip">
+                    <div class="reel-audio-container">
+                        <span class="vol-icon">🔊</span>
+                        <input type="range" id="reel-volume-slider" min="0" max="1" step="0.05" value="0">
+                        <small class="vol-label">REEL VOLUME</small>
+                    </div>
+                    <div class="strip-inner" id="video-container"></div>
+                </div>
+                <div class="letter-side">
+                    <h2 class="script-title">Happy Valentine's Day,</h2>
+                    <div id="typewriter-content"></div>
+                    <div id="signature-final">❤️</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
