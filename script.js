@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const videoContainer = document.getElementById("video-container");
 
     const reelFiles = [
-        "./reels/reel2.mp4", "./reels/reel3.mp4", "./reels/reel4.mp4", "./reels/reel25.mp4",
+        "reel2.mp4", "./reels/reel3.mp4", "./reels/reel4.mp4", "./reels/reel25.mp4",
         "./reels/reel5.mp4", "./reels/reel6.mp4", "./reels/reel7.mp4", "./reels/reel8.mp4",
         "./reels/reel9.mp4", "./reels/reel10.mp4", "./reels/reel11.mp4", "./reels/reel12.mp4",
         "./reels/reel13.mp4", "./reels/reel14.mp4", "./reels/reel15.mp4", "./reels/reel6.mp4",
@@ -251,4 +251,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 });
+
 
