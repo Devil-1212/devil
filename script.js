@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "/reel5.mp4", "/reel6.mp4", "/reel7.mp4", "/reel8.mp4",
         "/reel9.mp4", "/reel10.mp4", "/reel11.mp4", "/reel12.mp4",
         "/reel13.mp4", "/reel14.mp4", "/reel15.mp4", "/reel6.mp4",
-        "/reel7.mp4", "/reel8.mp4", "/reel9.mp4", "/reel20.mp4",
+        "/reel7.mp4", "/reel9.mp4", "/reel20.mp4",
         "/reel21.mp4", "/reel22.mp4", "/reel23.mp4", "/reel24.mp4"
     ];
 
@@ -251,6 +251,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 });
+
 
 
 
